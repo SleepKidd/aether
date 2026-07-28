@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AETHER | Архитектурное бюро</title>
+    <!-- Премиальные шрифты: Syne для футуризма и Inter для дорогого минимализма -->
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Inter:wght@300;400;500&family=Syne:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Иконки FontAwesome -->
+    <link rel="stylesheet" href="https://cloudflare.com">
+    <!-- Стили -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Архитектурный прелоадер (имитация сетки чертежа) -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+            <div class="preloader-line"></div>
+            <span class="preloader-logo">AETHER</span>
+        </div>
+    </div>
+
+    <!-- Тонкие интерактивные фоновые линии (Blueprint) -->
+    <div class="blueprint-bg">
+        <div class="bg-grid-line"></div>
+        <div class="bg-grid-line"></div>
+        <div class="bg-grid-line"></div>
+    </div>
+
+    <!-- Навигационная панель -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">AE<span class="silver-text">THER</span></a>
+            <nav class="nav-menu">
+                <a href="#manifesto" class="nav-link">Манифест</a>
+                <a href="#services" class="nav-link">Услуги</a>
+                <a href="#philosophy" class="nav-link">Философия</a>
+                <a href="#contacts" class="nav-link">Контакты</a>
+            </nav>
+            <a href="https://t.me" target="_blank" class="cta-btn-nav">Обсудить проект</a>
+        </div>
+    </header>
+    <!-- Главный экран (Hero) -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-coordinates">55.7558° N, 37.6173° E</div>
+            <h1 class="hero-title">Проектируем <br>Пространство <br><span class="silver-text">И СВЕТ</span></h1>
+            <p class="hero-desc">Создаем закрытую, вневременную архитектуру и футуристичные виллы, интегрированные в природный ландшафт.</p>
+            <div class="hero-action-zone">
+                <a href="#services" class="btn-architect">Смотреть концепты <i class="fa-solid fa-arrow-right-long icon-shift"></i></a>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <span class="line-scroll"></span>
+            <span class="indicator-text">SCROLL</span>
+        </div>
+    </section>
+
+    <!-- Блок манифеста философии -->
+    <section id="manifesto" class="manifesto reveal">
+        <div class="container">
+            <div class="manifesto-grid">
+                <div class="manifesto-header">
+                    <span class="arch-badge">01 // MANIFESTO</span>
+                    <h2 class="arch-section-title">Архитектура как <br><span class="silver-text">чистый холст</span></h2>
+                </div>
+                <div class="manifesto-body">
+                    <p class="manifesto-text">Мы верим, что роскошь — это не перенасыщение деталями, а абсолютная свобода пространства, обилие естественного света и честные, благородные материалы.</p>
+                    <p class="manifesto-text-muted">Каждая вилла от бюро AETHER — это продолжение окружающего пейзажа. Мы стираем границы между внутренним интерьером и живой природой с помощью масштабного панорамного остекления и выверенных геометрических пропорций.</p>
+                    <div class="manifesto-stats">
+                        <div class="m-stat">
+                            <span class="m-stat-num">09</span>
+                            <span class="m-stat-label">Мировых наград</span>
+                        </div>
+                        <div class="m-stat">
+                            <span class="m-stat-num">40+</span>
+                            <span class="m-stat-label">Вилл по всему миру</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Блок премиум-услуг -->
+    <section id="services" class="services reveal">
+        <div class="container">
+            <div class="section-title-wrap">
+                <span class="arch-badge">02 // SERVICES</span>
+                <h2 class="arch-section-title">Создаем <span class="silver-text">Эксклюзив</span></h2>
+            </div>
+            
+            <div class="arch-services-list">
+                <!-- Услуга 1 -->
+                <div class="arch-service-item">
+                    <div class="arch-service-num">01</div>
+                    <div class="arch-service-info">
+                        <h3>Архитектурное проектирование вилл</h3>
+                        <p>Разработка уникального архитектурного концепта, планов и 3D-моделей резиденций премиум-класса с учетом ландшафта.</p>
+                    </div>
+                    <div class="arch-service-price">от $50 000</div>
+                </div>
+                <!-- Услуга 2 -->
+                <div class="arch-service-item">
+                    <div class="arch-service-num">02</div>
+                    <div class="arch-service-info">
+                        <h3>Элитный ландшафтный дизайн</h3>
+                        <p>Интеграция эко-систем, приватных водоемов, концептуального освещения и геопластики в окружающую среду виллы.</p>
+                    </div>
+                    <div class="arch-service-price">от $30 000</div>
+                </div>
+                <!-- Услуга 3 -->
+                <div class="arch-service-item">
+                    <div class="arch-service-num">03</div>
+                    <div class="arch-service-info">
+                        <h3>Авторский надзор & VIP-подряд</h3>
+                        <p>Полное управление строительством, подбор редких отделочных материалов по всему миру и строгий контроль качества.</p>
+                    </div>
+                    <div class="arch-service-price">от $20 000</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Интерактивный блок философии материалов -->
+    <section id="philosophy" class="philosophy reveal">
+        <div class="container">
+            <div class="philosophy-grid">
+                <div class="philosophy-text-zone">
+                    <span class="arch-badge">03 // TEXTURES</span>
+                    <h2 class="arch-section-title">Честность <br><span class="silver-text">материалов</span></h2>
+                    <p class="philosophy-desc-main">Мы не прячем текстуры под слоями декора. Наша эстетика строится на благородном старении и первозданной красоте компонентов.</p>
+                </div>
+                <div class="materials-tabs">
+                    <!-- Таб 1 -->
+                    <div class="material-tab-item active" data-bg="concrete">
+                        <h4>Архитектурный бетон</h4>
+                        <p>Монументальность, строгая геометрия форм и идеальная матовая поверхность для игры света и тени.</p>
+                    </div>
+                    <!-- Таб 2 -->
+                    <div class="material-tab-item" data-bg="marble">
+                        <h4>Травертин и Мрамор</h4>
+                        <p>Природный премиальный камень с неповторимым рисунком, придающий зданиям вековой статус.</p>
+                    </div>
+                    <!-- Таб 3 -->
+                    <div class="material-tab-item" data-bg="glass">
+                        <h4>Закаленное Стекло</h4>
+                        <p>Огромные панорамные плоскости, стирающие любые границы между интерьером и живой природой.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Блок контактов -->
+    <section id="contacts" class="contacts reveal">
+        <div class="container">
+            <div class="contacts-grid">
+                <div class="contacts-title-zone">
+                    <span class="arch-badge">04 // CONTACTS</span>
+                    <h2 class="arch-section-title">Начать <br><span class="silver-text">Проектирование</span></h2>
+                    <p class="contacts-subtext">Обсудите ваш будущий проект на закрытой конфиденциальной встрече в нашем бюро или онлайн.</p>
+                </div>
+                <div class="contacts-links-zone">
+                    <div class="arch-contact-list">
+                        <a href="tel:+70000000000" class="arch-contact-link">
+                            <span class="contact-label">Телефон</span>
+                            <span class="contact-value">+7 (000) 000-00-00</span>
+                        </a>
+                        <a href="https://t.me" target="_blank" class="arch-contact-link">
+                            <span class="contact-label">Telegram</span>
+                            <span class="contact-value">@aether_studio_ceo</span>
+                        </a>
+                        <div class="arch-contact-link no-click">
+                            <span class="contact-label">Локация</span>
+                            <span class="contact-value">Пресненская наб., 12, Москва-Сити</span>
+                        </div>
+                    </div>
+                    <div class="contacts-action-btn">
+                        <a href="https://t.me" target="_blank" class="btn-architect-full">
+                            Оставить заявку в Telegram
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Строгий футер со ссылкой на создателя -->
+    <footer class="arch-footer">
+        <div class="footer-container">
+            <p class="copyright">&copy; 2026 AETHER. Все концепты защищены авторским правом.</p>
+            <p class="creator">
+                Designed & Developed by 
+                <a href="https://sleepkidd.ru" target="_blank" class="sleepkidd-link">sleepkidd.ru</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Подключение логики скриптов -->
+    <script src="script.js"></script>
+</body>
+</html>
